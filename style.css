@@ -1,0 +1,81 @@
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background-color: #f8f7f7;
+}
+body {
+   overflow-x: hidden;
+   height: 100%;
+}
+#features {
+  text-align: center;
+  padding-top: 40px;
+}
+.btn {
+  font-size: 15px;
+  background: rgb(69, 107, 233);
+  float: left;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.btn1{
+    border-radius: 12px;
+    color: white;
+}
+#service a {
+  color: #f7efef;
+  text-decoration: none;
+}
+
+#service ul {
+  list-style: none;
+  margin-right: 500px;
+  align-items: center;
+  padding-left: 10%;
+  max-width: fit-content;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+
+#service ul li {
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#service ul li a {
+  display: block;
+  padding: 20px;
+}
+
+#service ul li a:hover {
+  color: #88cfeb;
+  text-transform: uppercase;
+}
+#service {
+  height: 600px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+#service .showcase-content {
+  padding-top: 70px;
+}
+
+#service h2 {
+  font-size: 50px;
+   float: left;
+  padding-top: 20px;
+  color: rgb(9, 72, 131);
+}
+
+#service .showcase-content p {
+  padding-top: 30px;
+  float: left;
+  margin-right: 30%;
+  margin-left: 1%;
+}
